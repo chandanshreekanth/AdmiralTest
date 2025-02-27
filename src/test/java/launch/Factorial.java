@@ -1,0 +1,21 @@
+package launch;
+
+public class Factorial 
+{
+	public static void main(String[] args) 
+	{
+		
+		int no=5;
+		int fact = 1;
+		if(no<=0)
+		{
+			fact=0;
+		}
+		for(int i=1;i<=no;i++)
+		{
+			fact=fact*i;
+			System.out.println(fact);
+		}
+		//System.out.println(fact);
+	}
+}
